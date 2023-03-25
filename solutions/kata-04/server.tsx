@@ -1,19 +1,7 @@
 /** @jsxImportSource https://esm.sh/react@18.2.0 */
 import { Server } from "https://deno.land/std@0.181.0/http/server.ts";
 import { renderToStaticMarkup } from "https://esm.sh/react-dom@18.2.0/server";
-import { App } from "./App.tsx";
-
-const jsx = (
-  <html lang="en-US">
-    <head>
-      <meta charSet="utf-8" />
-      <title>My test page</title>
-    </head>
-    <body>
-      <App />
-    </body>
-  </html>
-);
+import { Page } from "./Page.tsx";
 
 const port = 8000;
 const handler = (request: Request) => {
@@ -21,7 +9,7 @@ const handler = (request: Request) => {
 
   if (pathname === "/") {
     return new Response(
-      `<!DOCTYPE html>${renderToStaticMarkup(jsx)}`,
+      `<!DOCTYPE html>${renderToStaticMarkup(<Page />)}`,
       {
         headers: {
           "Content-Type": "text/html; charset=utf-8",
