@@ -13,7 +13,7 @@ The katas can be completed in both JavaScript and TypeScript. I would personally
 The overall target of the katas is to get you exposed to various portions of Deno. We won't touch every single aspect of it and the main point is to learn to work with it so you can learn more as needed. If you complete the katas, then you will understand how to build simple web servers, applications, and tooling. I have extracted some portions from my static site generator called [Gustwind](https://gustwind.js.org/) and adapted the katas from that so essentially you will be developing a subset of Gustwind.
 
 1. [Getting started](katas/kata-01.md) - [Solution](solutions/kata-01)
-2. TODO
+2. [Creating a server](katas/kata-02.md) - [Solution](solutions/kata-02)
 
 ## Technical prerequisites
 
