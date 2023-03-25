@@ -1,4 +1,4 @@
-# Deno Kata 3 - Creating initial development server
+# Deno kata 3 - Creating initial development server
 
 The purpose of this kata is to create a development server for our project.
 

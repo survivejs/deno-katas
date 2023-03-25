@@ -1,4 +1,4 @@
-# Deno Kata 2 - Creating a server
+# Deno kata 2 - Creating a server
 
 The purpose of this kata is to build a web server with Deno.
 

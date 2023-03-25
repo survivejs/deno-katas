@@ -1,4 +1,4 @@
-# Deno Kata 1 - Getting started
+# Deno kata 1 - Getting started
 
 The purpose of this kata is to get your feet wet with Deno and get the environment running on your system so don't expect too much yet.
 
