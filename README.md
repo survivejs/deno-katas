@@ -15,9 +15,8 @@ The overall target of the katas is to get you exposed to various portions of Den
 1. [Getting started](katas/kata-01.md) - [Solution](solutions/kata-01)
 2. [Creating a server](katas/kata-02.md) - [Solution](solutions/kata-02)
 3. [Creating initial development server](katas/kata-03.md) - [Solution](solutions/kata-03)
-4. [Setting up web sockets](katas/kata-04.md) - [Solution](solutions/kata-04)
-5. [Setting up a static build](katas/kata-05.md) - [Solution](solutions/kata-05)
-6. [Creating a command line interface](katas/kata-06.md) - [Solution](solutions/kata-06)
+4. [Setting up a static build](katas/kata-05.md) - [Solution](solutions/kata-05)
+5. [Creating a command line interface](katas/kata-06.md) - [Solution](solutions/kata-06)
 
 ## Technical prerequisites
 
