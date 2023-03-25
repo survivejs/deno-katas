@@ -15,7 +15,7 @@ const html = `<!DOCTYPE html>
 </html>`;
 
 const jsx = (
-  <html>
+  <html lang="en-US">
     <head>
       <meta charSet="utf-8" />
       <title>My test page</title>
