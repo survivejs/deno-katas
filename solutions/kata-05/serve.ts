@@ -36,4 +36,8 @@ function serve() {
   server.serve(listener);
 }
 
-serve();
+if (import.meta.main) {
+  serve();
+}
+
+export { serve };
