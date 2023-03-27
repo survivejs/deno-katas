@@ -1,7 +1,5 @@
-/** @jsxImportSource https://esm.sh/react@18.2.0 */
 import { Server } from "https://deno.land/std@0.181.0/http/server.ts";
-import { renderToStaticMarkup } from "https://esm.sh/react-dom@18.2.0/server";
-import { Page } from "./Page.tsx";
+import { Page } from "./Page.ts";
 
 async function develop() {
   const port = 8000;
@@ -10,7 +8,7 @@ async function develop() {
 
     if (pathname === "/") {
       return new Response(
-        `<!DOCTYPE html>${renderToStaticMarkup(<Page />)}`,
+        Page(),
         {
           headers: {
             "Content-Type": "text/html; charset=utf-8",

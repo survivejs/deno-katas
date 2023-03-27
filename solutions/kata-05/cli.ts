@@ -1,6 +1,6 @@
 import * as flags from "https://deno.land/std@0.181.0/flags/mod.ts";
-import { build } from "./build.tsx";
-import { develop } from "./server.tsx";
+import { build } from "./build.ts";
+import { develop } from "./server.ts";
 import { serve } from "./serve.ts";
 
 const args = flags.parse(Deno.args, {

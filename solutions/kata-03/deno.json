@@ -2,7 +2,7 @@
   "tasks": {
     "fetch-deno-logo": "deno run --allow-net ./fetch-deno-logo.ts",
     "hello": "deno run ./hello.ts",
-    "start": "deno run --allow-net --watch ./server.tsx",
+    "start": "deno run --allow-net --watch ./server.ts",
     "test": "deno test --allow-net ./test.ts"
   }
 }
